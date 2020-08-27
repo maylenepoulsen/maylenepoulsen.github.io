@@ -63,6 +63,9 @@ nav {
   body {
     overflow-x: hidden;
   }
+  .logo {
+    font-size: 15px;
+  }
   .nav-links {
     position: absolute;
     right: 0px;
