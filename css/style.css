@@ -67,7 +67,8 @@ nav {
     font-size: 25px;
   }
   .nav-links {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     right: 0px;
     height: 92vh;
     top: 8vh;
