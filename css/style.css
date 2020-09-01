@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 
+/* Navbar */
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 
 .logo {
@@ -67,7 +69,6 @@ nav {
     font-size: 25px;
   }
   .nav-links {
-    /* position: absolute; */
     position: fixed;
     right: 0px;
     height: 92vh;
@@ -104,3 +105,40 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* Main */
+
+h2 {
+  font-family: 'Roboto', arial;
+  font-size: 125%;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .2em;
+  padding-top: 2em;
+}
+
+/* Main-Intro */
+
+.intro-text { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 92vh;
+  background-color: #f4f6f6;
+}
+
+.intro-text p {
+  padding: 5em 3em 3em 3em;
+  text-align: center;
+  font-family: 'Roboto', arial;
+  letter-spacing: .2em;
+  line-height: 1.7  ;
+}
+
+.intro-text img {
+  padding-top: 2em;
+  width: 39%;
+  /* to change color of svg, change the fill attribute on the svg, currently set to #c9e8ef */
+}
+
+/* Main-Technology */
