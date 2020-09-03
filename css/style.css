@@ -114,7 +114,7 @@ h2 {
   font-weight: 300;
   text-align: center;
   letter-spacing: .2em;
-  padding-top: 2em;
+  padding: 2em 0 2em 0;
 }
 
 /* Main-Intro */
@@ -142,3 +142,51 @@ h2 {
 }
 
 /* Main-Technology */
+
+.technology {
+  display: flex;
+  font-family: 'Roboto', arial;
+  font-weight: 300;
+  color: #929292;
+  padding-left: 3em;
+}
+
+.tech-names {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin: 2em 0 2.5em 0;
+}
+
+.tech-cards {
+  padding-left: 3em;
+}
+
+.tech-stack {
+  display: flex;
+  align-items: center;
+  margin: 1.5em 0 2.5em 0;
+}
+
+.tech-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 8px;
+  /* padding: .5em .5em 1em .5em; */
+  background-color: #ececec;
+}
+
+.tech-logo img {
+  width: 25px;
+  padding-bottom: 2px;
+}
+.tech-logo p {
+  color: #000;
+  background-color: #b3b3b3;
+  padding: 2px 3px 2px 3px;
+  font-weight: 100;
+  font-size: 65%;
+}
