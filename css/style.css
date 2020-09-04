@@ -164,7 +164,7 @@ h4 {
 }
 
 .tech-cards {
-  padding-left: 1.3em;
+  padding-left: 1.6em;
 }
 
 .tech-stack {
@@ -198,6 +198,15 @@ h4 {
   object-fit: cover;
   padding-bottom: 10px;
 }
+
+#express {
+  width: 40px;
+}
+
+#rails {
+  width: 40px;
+}
+
 .tech-logo p {
   position: absolute;
   bottom: 0px;
