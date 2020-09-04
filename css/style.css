@@ -143,6 +143,12 @@ h2 {
 
 /* Main-Technology */
 
+.section-technology {
+  padding-bottom: 3.5em;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
 .technology {
   display: flex;
   font-family: 'Roboto', arial;
@@ -220,4 +226,13 @@ h4 {
   font-size: 23%;
   text-align: center;
 }
+
+/* Main-Projects */
+
+.section-projects {
+  background-color: #f4f6f6;
+  min-height: 100vh;
+}
+
+
 
