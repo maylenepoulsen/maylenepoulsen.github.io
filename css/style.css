@@ -160,19 +160,17 @@ h4 {
   display: flex;
   align-items: center;
   width: 4.5em;
-  margin: 0 0 2.5em 0;
-  height: 53px;
+  height: 25%;
 }
 
 .tech-cards {
-  padding-left: 1.5em;
+  padding-left: 1.3em;
 }
 
 .tech-stack {
   display: flex;
   align-items: center;
   height: 25%;
-  /* margin: 1.5em 0 2.5em 0; */
 }
 
 .tech-logo {
@@ -182,6 +180,8 @@ h4 {
   justify-content: center;
   position: relative;
   margin-right: 8px;
+  margin-top: 2em;
+  margin-bottom: 2em;
   
   border-top: 1px solid #d6d6d6;
   border-right: 1px solid #d6d6d6;
