@@ -233,6 +233,9 @@ h4 {
 .section-projects {
   background-color: #f4f6f6;
   min-height: 100vh;
+  height: auto;
+  overflow: auto;
+  padding-bottom: 3.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,24 +244,18 @@ h4 {
 .project-card {
   background-color: #fff;
   width: 80%;
-  height: 40vh; 
-  
+   
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   font-family: 'Roboto', arial;
-}
-
-.project-img {
-  width: 100%;
-  padding-bottom: 5px;
 }
 
 .project-title {
   padding-top: 5px;
   width: 100%;
-  height: 35vh;
-
+  
   text-align: center;
   letter-spacing: .1em;
  
@@ -276,12 +273,16 @@ h4 {
   font-weight: normal;
 }
 
+.project-img {
+  width: 100%;
+}
+
 .project-links {
   display: flex;
   align-items: center;
   background-color: #dadada;
   width: 100%;
-  height: 100%;
+  padding: .5em 0 .5em 0;
   font-size: 70%;
 }
 
@@ -295,14 +296,17 @@ h4 {
   justify-content: space-evenly;
 }
 
+.project-sources a {
+  height: 20px;
+}
+
 .project-sources {
   padding-right: 5px;
   flex-basis: 60px;
   display: flex;
+  align-items: flex-end;
   justify-content: space-around;
 }
-
-
 
 /* Media Queries */
 
