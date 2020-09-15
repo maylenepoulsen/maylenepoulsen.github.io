@@ -309,6 +309,14 @@ h4 {
 }
 
 /* Main Contact */
+
+.contact {
+  padding-bottom: 3.5em;
+  min-height: 90vh;
+  height: auto;
+  overflow: auto;
+}
+
 .me-container {
   display: flex;
   justify-content: center;
@@ -318,11 +326,6 @@ h4 {
 .me {
   height: 5em;
   border-radius: 50%;
-}
-
-.contact {
-  padding-bottom: 3.5em;
-  height: 90vh;
 }
 
 form {
@@ -353,6 +356,7 @@ textarea {
 input[type=submit] {
   margin-top: 1em;
   font-family: 'Roboto', arial;
+  font-size: 100%;
   letter-spacing: .2em;
   padding: 10px 0 10px 0; 
   width: 50%;
