@@ -11,7 +11,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  /* background-color: aliceblue; */
 }
 
 .logo {
@@ -74,7 +73,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: aliceblue;
+    background-color: #c9e8ef;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,9 +309,20 @@ h4 {
 }
 
 /* Main Contact */
+.me-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3em;
+}
+
+.me {
+  height: 5em;
+  border-radius: 50%;
+}
 
 .contact {
   padding-bottom: 3.5em;
+  height: 90vh;
 }
 
 form {
@@ -323,26 +333,44 @@ form {
 }
 
 input[type=text], input[type=email], textarea {
+  font-family: 'Roboto', arial;
+  letter-spacing: .2em;
   width: 50%;
   padding: .5em;
   border: 1px solid #d6d6d6;
-  border-radius: 4px;
   resize: vertical;
   margin-bottom: .5em;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  -ms-border-radius: .2em;
+  -o-border-radius: .2em;
 }
 
 textarea {
   height: 150px;
 }
 
+input[type=submit] {
+  margin-top: 1em;
+  font-family: 'Roboto', arial;
+  letter-spacing: .2em;
+  padding: 5px 0 5px 0; 
+  width: 50%;
+  border: 1px solid #d6d6d6;
+  background-color: #d6d6d6;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  -ms-border-radius: .2em;
+  -o-border-radius: .2em;
+}
+
 /* Footer */
 
 footer {
   padding: 1em;
+  background-color: #f4f6f6;
 }
 
 .contact-logos {
