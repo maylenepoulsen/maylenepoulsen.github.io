@@ -368,14 +368,18 @@ input[type=submit] {
 /* Footer */
 
 footer {
-  padding: 1em;
+  padding: .5em;
   background-color: #f4f6f6;
 }
 
 .contact-logos {
   display: flex;
   justify-content: space-around;
-  padding-top: 4px;
+  padding: 4px 0px 4px 0px;
+}
+
+.contact-logos a {
+  height: 2em;
 }
 
 .social-media-logos {
