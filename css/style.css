@@ -360,10 +360,6 @@ input[type=submit] {
   border: 1px solid #d6d6d6;
   background-color: #d6d6d6;
   border-radius: .2em;
-  -webkit-border-radius: .2em;
-  -moz-border-radius: .2em;
-  -ms-border-radius: .2em;
-  -o-border-radius: .2em;
 }
 
 /* Footer */
