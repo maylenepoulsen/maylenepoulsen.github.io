@@ -358,11 +358,15 @@ input[type=submit] {
   font-family: 'Roboto', arial;
   font-size: 100%;
   letter-spacing: .2em;
-  padding: 10px 0 10px 0; 
+  padding: 10px 0 10px 0;
   width: 50%;
   border: 1px solid #d6d6d6;
   background-color: #d6d6d6;
-  /* border-radius: .2em; */
+  border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -ms-border-radius: 0px 0px 0px 0px;
+  -o-border-radius: 0px 0px 0px 0px;
 }
 
 /* Footer */
