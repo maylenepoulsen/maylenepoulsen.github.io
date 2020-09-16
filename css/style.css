@@ -342,6 +342,7 @@ input[type=text], input[type=email], textarea {
   border: 1px solid #d6d6d6;
   resize: vertical;
   margin-bottom: .5em;
+  -webkit-appearance: none;
   border-radius: .2em;
   -webkit-border-radius: .2em;
   -moz-border-radius: .2em;
@@ -362,6 +363,7 @@ input[type=submit] {
   width: 50%;
   border: 1px solid #d6d6d6;
   background-color: #d6d6d6;
+  -webkit-appearance: none;
   border-radius: 0px 0px 0px 0px;
   -webkit-border-radius: 0px 0px 0px 0px;
   -moz-border-radius: 0px 0px 0px 0px;
