@@ -475,5 +475,80 @@ footer {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .intro-text img {
+    width: 30%;
+  }
+  h2 {
+    font-size: 140%;
+    padding: 2.5em 0 2.5em 0;
+    font-weight: 400;
+  }
+  .tech-names {
+    padding-left: 12%;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  .tech-logo {
+    width: 95px;
+    height: 95px;
+    margin-right: 35px;
+  }
+  .tech-logo img {
+    width: 40px;
+  }
+  .tech-logo p {
+    width: 95px;
+    font-size: 80%;
+    padding: 5px 0px 5px 0px;
+  }
+  #express, #rails {
+    width: 60px;
+  }
+  .title {
+    padding-top: 10px;
+    font-size: 110%;
+  }
+  
+  .description {
+    padding: 8px 0 8px 0;
+    font-size: 70%;
+  }
+  .project-links {
+    min-height: 4em;
+    font-size: 100%;
+  }
+  .project-sources {
+    flex-basis: 140px;
+    align-items: center;
+  }
+  .project-sources a {
+    height: 30px;
+  }
+  .links {
+    width: 30px;
+  }
+  .me-container {
+    margin-bottom: 2em;
+  }
+  .me{
+    height: 6.5em;
+  }
+  input[type=text], input[type=email], textarea, input[type=submit] {
+    width: 40%;
+  }
+  footer {
+    padding: 1.5em;
+  }
+  .contact-logos a {
+    height: 2.5em;
+  }
+  
+  .social-media-logos {
+    width: 2.5em;
+  }
+}
+
 
 
